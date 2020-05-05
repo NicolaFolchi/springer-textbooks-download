@@ -18,7 +18,7 @@ do
 	then 
 		bookName=${bookName::-5}
 	else
-		noNameCounter=$((noNameCounter++))
+		noNameCounter=$(("$noNameCounter" + 1))
 	fi
 	# Here I am going through the HTML and obtaining the href of the button that will direct us to the pdf file on the Springer server
 	pdfLink="$(curl -s "${finalURL}" | grep -m 1 -o '/content/pdf/[a-zA-Z0-9+-.%]*[.pdf]')"
