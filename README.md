@@ -3,7 +3,7 @@
 Bash script that automatically downloads all 408 Springer Ebooks. Since I was bored during quarantine lockdown, I decided to write this bash script that hopefully somebody can find helpful :)
 
 
-### How Does it Work
+### How It Works
 
 You can simply clone the repo and execute the dwBooks.sh in your terminal. Make sure the springer_book_links.txt file is on the same directory as the script before running it.
 
